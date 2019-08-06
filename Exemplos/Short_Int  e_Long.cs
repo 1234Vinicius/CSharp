@@ -6,20 +6,27 @@ namespace short_Int_e_Long
     {
         static void Main(string[] args)
         {
-            // DECLARANDO AS VARIÁVEIS
-            short minhaVarDoTipoShort = 10;
-            System.Int16 minhaVarDoTipoShortDois = 20;
-            int minhaVardoTipoInteiro;
-            long minhaVarDoTipoLong;
+            char a, b;
 
-            // SOMANDO VALORES DE VARIÁVEIS
+            Console.Write("Digite a primeira letra");
+            a = char.Parse(Console.ReadLine());
 
-            // minhaVarDoTipoShort + minhaVarDoTipoShortDois;
-            // EU NÃO POSSO SIMPLESMENTE SOMAR VALORES, OU FAZER QUALQUER OUTRA OPERAÇÃO CONFORME ACIMA,
-            // DEVO SEMPRE ATRIBUIR O RESULTADO DE UMA OPERAÇÃO A UMA OUTRA VARIÁVEL
-            // OU JÁ IMPRIMIR NA TELA O RESULTADO, CONFORME ABAIXO.
-            Console.WriteLine(minhaVarDoTipoShort + minhaVarDoTipoShortDois);
+            Console.Write("Digite a segunda letra");
+            b = char.Parse(Console.ReadLine());
+
+            if (a == b)
+            {
+                Console.WriteLine("Os valores são iguais...");
+            }
+            else
+            {
+                Console.WriteLine("Os valores são diferentes...");
+            }
+
+            
             Console.ReadKey();
+
+
         }
     }
 }
