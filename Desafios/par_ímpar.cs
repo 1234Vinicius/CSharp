@@ -10,6 +10,14 @@ namespace Par_ímpar
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("####### NÚMEROS PAR E ÍMPAR #######");
+            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("----------------------------------------------");
+
+
             int x = 12030450;
             // SOLICITANDO AO USUÁRIO QUE DECLARE AS VARIÁVEIS
             Console.Write("Digite o primeiro número : ");
