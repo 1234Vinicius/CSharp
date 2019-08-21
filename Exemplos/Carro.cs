@@ -9,16 +9,16 @@ namespace Classe
     class Carro
     {
         // PROPRIEDADES OU CARACTERÍSTICAS
-        public string Marca = "Fiat";
-        public int AnoModelo;
-       public bool LuzesInternas = false;
+        public string Jogos = "Pes";
+        public int Ano;
+       public bool Lançamentos = false;
 
 
         // MÉTODO OU AÇÕES 
          public void abrirPortas() {
             // IMAGINE QUE O ALGUÉM IRÁ ABRIR A PORTA 
             // DO CARRO E AS LUZES VÃO ACENDER.
-            LuzesInternas = true;
+            Lançamentos = true;
 
 
         }
@@ -29,7 +29,7 @@ namespace Classe
             
                 // IMAGINE QUE O PASSAGEIRO FECHOU A PORTA
                 // DO CARRO E AS LUZES VÃO APAGAR.
-                LuzesInternas = false;
+                Lançamentos = false;
             }
 
              /* ESSE MÉTODO IRÁ RETORNAR UMA INFORMAÇÃO PARA O USÚARIO
@@ -37,6 +37,8 @@ namespace Classe
               *  MAS EU PRECISO SABER QUAL A INTENSIDADE. */
             public string acenderFarolAutomaticamente() {
                 return "Médio";
+
+            Console.ReadKey();
 
             }
 
